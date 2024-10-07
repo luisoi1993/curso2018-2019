@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+ 
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Formulario</title>
+		<meta name="author" content="Luis Aguado">
+		<style>
+			body{ 
+					color:red;  background-color: #d8da3d; font-family: Georgia, "Times New Roman",
+					Times, serif;
+				}
+		</style>
+	</head>
+ 
+<body>
+	<h3>Rellena el campo de incidencia</title>
+	
+	<form action="/php/insertar_cv.php" method="post" enctype="multipart/
+		form-data">
+		Usuario <br/>
+		<input type="text" name="nombre" value="USUARIO1" size="20" disabled />
+	
+	
+		</br>
+		
+		Fecha del problema <br/>
+		<input type="date" name="fecha">
+		
+		</br>
+		
+		Telefono <br/>
+		<input type="tel" name="telefono" value="" maxlength="9" />
+		
+		<br/>
+		
+		Grado de severidad <br/>
+		<select name="menu">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+		</select>
+		
+		<br/>
+		
+		Sexo <br/>
+		<input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre </br>
+		<input type="radio" name="sexo" value="mujer" /> Mujer <br/>
+		
+		
+		
+		<br/><br/>
+		
+		<label for="descripcion">Descripción de la incidencia</label> <br/>
+		<textarea name="descripcion" id="descripcion" cols="40" rows="5" maxlength="300">
+		</textarea>
+		
+		<br/><br/>
+		
+		Incluir  foto de la incidencia <input type="file" name="foto" />
+		
+		<br/><br/>
+		
+		<input name="suscribir" type="checkbox" value="succribir" 
+		checked="checked"/> Mantener abierta la incidencia
+		
+		<br/><br/>
+		
+		<input type="submit" name="enviar" value="Guardar cambios" />
+		<input type="reset" name="limpiar" value="Borrar los datos introducidos" />
+		
+	</form>
+</body>
+ 
+</html>

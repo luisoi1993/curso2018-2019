@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+ 
+<head>
+     <title>Multimedia</title>
+	 
+	 <link rel="stylesheet" type="text/css" href="Ejercicio 20.css"/>
+	 
+	 <style>
+		h1{color:red;}
+	</style>
+	 
+</head>
+ 
+<body class="principal">
+
+	<h1 class="titulo">Practica evaluada soobre multimedia</h1>
+	<hr class="barra"/>
+	
+	<h2 class="titulo2">Enlace a video de youtube</h2>
+		<iframe width="560" height="315"  src="https://www.youtube.com/embed/4C3eHAQIgyM?start=110&end=125"  allowfullscreen ></iframe>
+	
+	<h2 class="titulo3">Enlace de video</h2>
+	<video src="oi.mp4" width="640" height="480" poster="urss.png" controls>
+		<source src="oi.ogg" type="video/ogg">
+		<source src="oi.webm" type="video/webm">
+		<track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Español">
+	</video>
+		
+	
+	<h2 class="titulo4">Enlace musica</h2>
+	<audio id="demo" src="2pac.mp3">
+		<source src="2pac.wav">
+	</audio>
+	
+<div>
+  <button onclick="document.getElementById('demo').play()">Reproducir el Audio</button>
+  <button onclick="document.getElementById('demo').pause()">Pausar el Audio</button>
+  <button onclick="document.getElementById('demo').volume+=0.1">Aumentar el Volumen</button>
+  <button onclick="document.getElementById('demo').volume-=0.1">Disminuir el Volumen</button>
+</div> 
+
+</body>
+ 
+</html>

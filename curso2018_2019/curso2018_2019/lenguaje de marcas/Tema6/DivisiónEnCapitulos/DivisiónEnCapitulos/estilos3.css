@@ -1,0 +1,34 @@
+.cabecera{
+	width:100%;
+	height:15%;
+	background-color:#0B615E;
+	position:absolute;
+	top:0%;
+	left:0%;
+}
+
+.indice{
+	width:20%;
+	height:80%;
+	position:absolute;
+	top:16%;
+	left:0.2%;
+	background-color:#E3CEF6;
+}
+
+.contenido{
+	width:80%;
+	height:300%;
+	position:absolute;
+	top:16%;
+	left:20.5%;
+	overflow: hidden;
+	
+}
+
+
+div div {
+  height: 100%;
+  width: 100%;
+  background-color:#A9F5F2;
+}

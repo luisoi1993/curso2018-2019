@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+ 
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Ejemplo Posicionamiento Normal o estatico</title>
+	<style type="text/css">
+	    .caja1{
+		   position:absolute;
+		   top:1em;
+		   left:2em;
+		   border: 1px solid #ccc;
+		   background-color:#e0e0e0;
+		   width:90%;
+		   height:600px;
+		   margin-bottom:5px;
+		}
+		
+		.caja2{
+		   position:absolute;
+		   top:1em;
+		   left:2em;
+		   border: 1px solid #ccc;
+		   background-color:#04B4AE;
+		   width:80%;
+		   height:80%;
+		   margin-bottom:5px;
+		   margin:3em;
+		}
+		
+		p{
+		   width:50%;
+		   position:absolute;
+		   left:30em;
+		   bottom:20em;
+		}
+		
+		img{
+		   position:absolute;
+		   left:0.5em;
+		   bottom:25%;
+		}
+		
+	</style>
+</head>
+ 
+<body>
+    <div class="caja1">
+	    <h1>Caja1</h1>
+		<div class="caja2">
+		   <p>Cómo dentro de la estructura básica, vamos a colocar otros elementos, vamos a crear nuestra estructura
+		   creando DIVS, los divs son contenedores dentro de los cuales podemos poner nuestros elementos</p>
+		   
+		   <img src="pluma.png"></img>
+		</div>
+	</div>
+    
+</body>
+ 
+</html>

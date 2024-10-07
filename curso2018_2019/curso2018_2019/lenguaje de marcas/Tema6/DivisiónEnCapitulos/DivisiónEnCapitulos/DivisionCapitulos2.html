@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+
+<head>
+   <title>Programación estructurada</title>
+   <link rel="stylesheet" type="text/css" href="estilos.css" media="screen" />
+</head>
+
+<body>
+    <div class="cabecera">
+		<h1>LA PROGRAMACIÓN ESTRUCTURADA</h1>
+	</div>
+	
+	<div class="indice">
+	   <ul>
+	      <li><a href="#capitulo1">Las Estructuras de Control</a></li>
+		  <li><a href="#capitulo2">La Estructura Secuencial</a></li>
+		  <li><a href="#capitulo3">La Estructura Selectiva</a></li>
+		  <li><a href="#capitulo4">La Estructura Repetitiva</a></li>
+		  <li><a href="#explicacion">Explicacion del Ejercicio</a></li>
+	   </ul>
+	</div>
+	
+	<div class="contenido">
+	
+	<!-- ***********************************CAJA DEL PRIMER CAPITULO********************************************************-->
+	   <div id="capitulo1">
+	      <h1>LAS ESTRUCTURAS DE CONTROL</h1>
+		  <p>
+		     En programación, las estructuras de control permiten modificar el flujo de ejecución de las instrucciones de un programa.
+		  </p>
+		  
+		  <p>
+		     Todos los lenguajes de programación modernos tienen estructuras de control similares. Básicamente lo que varía entre las estructuras
+			 de control de los diferentes lenguajes es su sintaxis; cada lenguaje tiene una sintaxis propia para expresar la estructura.
+		  </p>
+		  
+		  <p>
+		     Con las estructuras de control se puede:
+			 <ul>
+			    <li>De acuerdo con una condición, ejecutar un grupo u otro de sentencias</li>
+				<li>De acuerdo con el valor de una variable, ejecutar un grupo u otro de sentencias</li>
+				<li>Ejecutar un grupo de sentencias mientras se cumpla una condición</li>
+				<li>Ejecutar un grupo de sentencias hasta que se cumpla una condición</li>
+				<li>Ejecutar un grupo de sentencias un número determinado de veces </li>
+			 </ul>
+		  </p>
+		  
+		  <p>
+		    La programación estructurada es un paradigma de programación basada en el teorema de Edsger Dijkstra que demuestra que todo programa
+			puede desarrollarse utilizando únicamente tres estructuras de control:
+			
+			<ol>
+			   <li>Secuencia: las instrucciones se ejecutan sucesivamente, una detrás de otra.</li>
+			   <li>Selección: bifurcación condicional de una o más.</li>
+			   <li>Iteracción: Repetición de una operación mientras se cumple una condición.</li>
+			   
+			</ol>
+		  </p>
+		  
+	   </div>
+	   
+	   <!-- ***********************************CAJA DEL SEGUNDO CAPITULO********************************************************-->
+	   
+	  <div id="capitulo2">
+	     <h1>LA ESTRUCTURA SECUENCIAL</h1>
+		 
+		 <p>
+		    La estructura de control secuencial está formada por una sucesión de instrucciones que se ejecutan en orden una a continuación
+			de la otra. Cada una de las instrucciones están separadas por el carácter punto y coma (;).
+		 </p>
+		 
+		 <p>
+		    Las instrucciones se suelen agrupar en bloques. El bloque de sentencias se define por el carácter llave de apertura ({) para 
+			marcar el inicio del mismo, y el carácter llave de cierre (}) para marcar el final. En Java si el bloque de sentencias está 
+			constituido por una única sentencia no es obligatorio el uso de las llaves de apertura y cierre ({ }), aunque sí recomendable.
+		 </p>
+		 
+		 <p>
+		    Bloque secuencial:<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;{<br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sentencia1;<br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sentencia2;<br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sentencia3;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+
+		 </p>
+		 
+		 <p>
+		     Para modificar el orden de ejecución de las instrucciones de un programa se utilizan las estructuras condicionales y repetitivas.
+		 </p>
+	   </div>
+	   
+	   <!-- ***********************************CAJA DEL TERCER CAPITULO********************************************************-->
+	   
+	   <div id="capitulo3">
+	      <h1>LA ESTRUCTURA DE SELECCIÓN</h1>
+		  
+		  <p>
+		     Las estructuras de selección son empleadas para tomar decisiones lógicas. En este tipo de estructuras se evalúa una condición y en
+			 función del resultado se realiza, o no, una serie de instrucciones.
+		  </p>
+		  
+		  <p>
+		     Las estructuras de selección permiten modificar el flujo de un programa. La decisión de ejecutar un bloque de sentencias
+			 queda condicionada por el valor de una expresión lógica definida utilizando variables del programa.
+		  </p>
+		  
+		  <p>
+		     Las estructuras de selección pueden ser de tres tipos:
+			 <ol>
+			    <li>Estructura de selección simple.</li>
+				<li>Estructura de selección doble.</li>
+				<li>Estructura de selección múltiple.</li>
+			 </ol>
+		  </p>
+		  
+		  <p>
+		     Las estructuras selectivas o condicionales simples están compuestas únicamente de una sola condición si es verdadera ejecutara la
+			 acción o acciones si la condición es falsa no hará nada.
+		  </p>
+		  
+		  <p>
+		     En las estructuras selectivas dobles si se cumple una condición se ejecuta una instrucción o grupo de instrucciones y si no se
+			 cumple se ejecuta otra instrucción o grupo de instrucciones distinto. 
+		  </p>
+		  
+		  <p>
+		     La sentencia de selección múltiple se puede conseguir utilizando anidación, if-else-if, o con la sentencia case.
+		  </p>
+		  
+		  <p>
+		     Con al sentencia CASE se evalúa una expresión que devuelve un valor numérico entero y dependiendo del valor devuelto se ejecuta
+			 la sentencia asociada a ese valor.
+		  </p>
+		  
+		  <p>
+		     Esta instrucción evalúa una expresión (que debe ser short, int, byte, char o una cadena de caracteres), y según el valor de la 
+			 misma ejecuta instrucciones. Cada case contiene un valor de la expresión; si efectivamente la expresión equivale a ese valor, 
+			 se ejecutan las instrucciones de ese case y de los siguientes.
+		  </p>
+		  
+	   </div>
+	   
+	   <!-- ***********************************CAJA DEL CUARTO CAPITULO********************************************************-->
+	   
+	   <div id="capitulo4">
+	      <h1>LAS ESTRUCTURAS REPETITIVAS</h1>
+		  
+		  <p>
+		     También conocidas como bucles, las instrucciones iterativas tienen la misión de ejecutar las mismas instrucciones de código
+			 un número de veces, determinado por una condición.
+		  </p>
+		  
+		  <p>
+		     Los bucles agrupan instrucciones las cuales se ejecutan continuamente hasta que una condición que se evalúa sea falsa.
+		  </p>
+		  
+		  <p>
+		     En Java tenemos tres formas de implementar un bucle (como en la mayoría de los lenguajes estructurados):
+			 
+			 <ol>
+			    <li>WHILE: la condición se comprueba antes de empezar a ejecutar la iteración.</li>
+				<li>DO-WHILE: la condición se comprueba al final de la iteración.</li>
+				<li>FOR: cuando conocemos el numero de iteraciones del bucle.</li>
+			 </ol>
+		  </p>
+	   </div>
+	</div>
+	
+</body>
+</html>

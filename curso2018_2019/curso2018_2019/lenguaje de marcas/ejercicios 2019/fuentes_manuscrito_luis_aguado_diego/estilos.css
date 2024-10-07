@@ -1,0 +1,13 @@
+@font-face{
+	font-family: 'Courgette';
+	src: url("courgette.woff2");
+}
+
+p{
+	font-family: 'Courgette';
+}
+
+div{
+	text-align:center;
+	font-size: xx-large
+}
